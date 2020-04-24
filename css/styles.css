@@ -1,0 +1,342 @@
+@media screen and (min-device-width:1300px){
+    body{
+        background-color: #F2F3FA;
+    }
+    header{
+        width: 100%;
+        height: 350px;  
+    }
+    #containerMenu{
+        width: 100%;
+        background-color: #3b6c3b;
+        height: 70px;
+        z-index: 999;
+    }
+
+    #menu{
+        width: 500px;
+        height: inherit;
+        float: left;
+        margin-left: 0px;
+    }
+    #menuItem{
+        float: left;
+        height: 60px;
+    }
+    .mask{
+        width: 100%;
+        height: 60px;
+        background-color: #3f743f;
+
+    }
+    #menuLista{
+        height: 60px;
+        width: 145px;
+        float: left;
+        list-style: none;
+        margin-left: 5px;
+        padding-top: 20px;
+        box-sizing: border-box;
+
+    }
+    a{
+        color: #dbdbdb;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    #menuLista:hover{
+        color: white;
+        cursor: pointer;
+        border: 0px;
+        background-color: #3b6c3b;
+    }
+    .container{
+        width: 1400px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+    .textBuild{
+        color: #b7b7b7;
+        text-align: center;
+        font-family: Arial;
+        font-size: 15px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    .imagem{
+        width: auto;
+        height: 250px;
+        background-image: url(../image/vip.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .imagemWalpaper{
+        width: auto;
+        height: 350px;
+        background-image: url(../image/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+    .logo{
+        width: 400px;
+        height: 350px;
+        background-image: url(../image/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 380px;
+        transition: 1s;
+    }
+    .logo:hover{
+        transform: rotate(10deg);
+        background-size: 450px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .logoIp{
+     float: left;   
+    }
+    .logoLeftIcon{
+        float: left;
+        width: 60px;
+        height: 60px;
+        background-image: url(../image/logo.png);
+        background-size: 64px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .ipCopy{
+        color: white;
+        font-family: arial;
+        font-weight: bolder;
+        float: left;
+        width: 220px;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .logoLeftIcon:hover{
+        cursor: pointer;
+    }
+    .ipCopy{
+     cursor: pointer;
+    }
+    .profile{
+        float: left;
+        background-size: 35px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50px;
+        height: 50px;
+        background-image: url(../image/iconProfile.png);
+        margin-top: 10px;
+    }
+    .profile:hover{
+        cursor: pointer;
+    }
+    .buy{
+        margin-top: 10px;
+        float: left;
+        background-image: url(../image/buy.png);
+        background-size: 35px;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+    }
+    .buy:hover{
+        cursor: pointer;
+    }
+    .compraConteudo{
+        float: right;
+        width: 100px;
+        height: 60px;
+    }
+    footer{
+        padding: 15px;
+        width: 100%;
+        height: 50px;
+        background-color: #FFFFFF;
+    }
+
+    
+}
+@media screen and (max-device-width:780px){
+    body{
+        background-color: #F2F3FA;
+    }
+    header{
+        width: 100%;
+        height: 350px;  
+    }
+    #containerMenu{
+        width: 100%;
+        background-color: #3b6c3b;
+        height: 70px;
+        z-index: 999;
+    }
+
+    #menu{
+        width: 500px;
+        height: inherit;
+        float: left;
+        margin-left: 0px;
+    }
+    #menuItem{
+        float: left;
+        height: 60px;
+    }
+    .mask{
+        width: 100%;
+        height: 60px;
+        background-color: #3f743f;
+
+    }
+    #menuLista{
+        height: 60px;
+        width: 145px;
+        float: left;
+        list-style: none;
+        margin-left: 5px;
+        padding-top: 20px;
+        box-sizing: border-box;
+
+    }
+    a{
+        color: #dbdbdb;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    #menuLista:hover{
+        color: white;
+        cursor: pointer;
+        border: 0px;
+        background-color: #3b6c3b;
+    }
+    .container{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+    .textBuild{
+        color: #b7b7b7;
+        text-align: center;
+        font-family: Arial;
+        font-size: 15px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    .imagem{
+        width: auto;
+        height: 250px;
+        background-image: url(../image/vip.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .imagemWalpaper{
+        width: auto;
+        height: 350px;
+        background-image: url(../image/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+    .logo{
+        width: 400px;
+        height: 350px;
+        background-image: url(../image/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 380px;
+        transition: 1s;
+    }
+    .logo:hover{
+        transform: rotate(10deg);
+        background-size: 450px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .logoIp{
+     float: left;   
+    }
+    .logoLeftIcon{
+        float: left;
+        width: 60px;
+        height: 60px;
+        background-image: url(../image/logo.png);
+        background-size: 64px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .ipCopy{
+        color: white;
+        font-family: arial;
+        font-weight: bolder;
+        float: left;
+        width: 220px;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .logoLeftIcon:hover{
+        cursor: pointer;
+    }
+    .ipCopy{
+     cursor: pointer;
+    }
+    .profile{
+        float: left;
+        background-size: 35px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50px;
+        height: 50px;
+        background-image: url(../image/iconProfile.png);
+        margin-top: 10px;
+    }
+    .profile:hover{
+        cursor: pointer;
+    }
+    .buy{
+        margin-top: 10px;
+        float: left;
+        background-image: url(../image/buy.png);
+        background-size: 35px;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+    }
+    .buy:hover{
+        cursor: pointer;
+    }
+    .compraConteudo{
+        float: right;
+        width: 100px;
+        height: 60px;
+    }
+    footer{
+        padding: 15px;
+        width: 100%;
+        height: 50px;
+        background-color: #FFFFFF;
+    }
+
+    
+}
